@@ -1,0 +1,46 @@
+# Python bytecode, cache e ambiente virtual
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~
+*.log
+
+# Ambientes virtuais
+env/
+venv/
+.env/
+.venv/
+
+# PyInstaller/Build artifacts
+build/
+dist/
+*.spec
+
+# Egg/Egg-info, cache de ferramentas
+*.egg-info/
+*.egg
+.eggs/
+.mypy_cache/
+.pytest_cache/
+
+# Configs de editor/IDE
+.vscode/
+.idea/
+
+# macOS e sistema
+.DS_Store
+
+# Arquivos de banco de dados/comuns
+*.sqlite3
+*.db
+
+# Arquivos grandes ou gerados automaticamente
+xref-YouTube-MP3-Downloader.html
+
+# Outras pastas/arquivos temporários
+*.manifest
+
+# Arquivos específicos e relatórios que podem ser descartáveis
+*.bak
+*.tmp
